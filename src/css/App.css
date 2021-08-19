@@ -1,0 +1,105 @@
+.errorDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error{
+
+}
+.avatar{
+  width: 150px !important;
+  height: 150px !important;
+}
+.avatarDiv{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+body{
+  background-color: #01393A;
+}
+.card-space{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+  width: 350px;
+  margin:15px;  
+}
+.card a{
+  text-decoration: none;
+  color: #01393A;
+}
+.card-media{
+  height: 250px;
+}
+.modalDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.modalContent{
+  background: #E0E0E0;
+  border-style: solid;
+  border-color: #295268;
+  border-width: 5px !important;
+  padding: 30px;
+  width: 50vw;
+}
+.formControlModal{
+  width: 100%;
+  margin: 8px !important;
+}
+.btnModalAccept{
+  background: #44C004 !important;
+  }
+.btnModalCancel{
+  background: #FB6467 !important;
+}
+.btnModalAccept, .btnModalCancel{
+  margin: 15px 30px 0 0 !important;
+  width: 150px;
+}
+.btnModalAccept span, .btnModalCancel span{
+  color: whitesmoke ;
+  font-weight: 700;
+  margin:0 45px;
+}
+.header{
+  height: 150px;
+  background-color: #E0E0E0;
+}
+.link .logo{
+  height: 100%;
+  max-width: 80vw;
+}
+.infoCharacter{
+  width: 50%;
+  margin-left: 25%;
+  background-color: whitesmoke;
+}
+.infoName{
+  background-color: #316759;
+  padding: 30px;
+  margin-top: 15px;
+}
+.infoName p{
+  font-size: 2rem;
+  color:whitesmoke;
+  text-align: center;
+}
+.infoGeneralDiv{
+  padding:15px
+}
+.infoGeneral{
+  padding: 15px;
+  border-style: solid;
+  border-color: #53ABEE;
+  border-width: 0 0 4px 0;
+}
+.infoGeneralDiv p{
+  font-size: 1.5rem;
+  color: #5A6770;
+}
