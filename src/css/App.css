@@ -3,9 +3,6 @@
   align-items: center;
   justify-content: center;
 }
-.error{
-
-}
 .avatar{
   width: 150px !important;
   height: 150px !important;
@@ -17,6 +14,10 @@
 }
 body{
   background-color: #01393A;
+}
+.btnCard{
+  background-color: #00B0C8 !important;
+  color: whitesmoke !important
 }
 .card-space{
   display: flex;

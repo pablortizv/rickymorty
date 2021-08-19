@@ -122,11 +122,11 @@ function CardCharacter(props) {
                         </CardActionArea>
                         </Link>
                         <CardActions>
-                            <Button size="small" color="primary" 
+                            <Button size="small" className={'btnCard'} 
                                 onClick={() => modalOperator(character.id, character.name, character.image, character.gender, character.species, character.location.name, character.origin.name, character.status)} >
                                 Edit
                             </Button>
-                            <Button size="small" color="primary" 
+                            <Button size="small" className={'btnCard'} 
                             onClick={() => deleteModal(character.id)}
                             >
                                 Delete

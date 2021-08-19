@@ -29,7 +29,6 @@ function App() {
         
         <Router>
           <Header/>
-          
           <Switch>
             <Route path='/' exact >
               <CardCharacter cards={characters}/>

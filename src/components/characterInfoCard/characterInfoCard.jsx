@@ -4,10 +4,6 @@ import Typography from '@material-ui/core/Typography';
 import { Avatar } from '@material-ui/core';
 
 function CharacterInfoCard(props) {
-    useEffect(() => {
-        console.log(props)
-    });
-
     return (
         <div >
             <div className={'avatarDiv'}>
